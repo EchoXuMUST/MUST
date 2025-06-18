@@ -1,0 +1,133 @@
+absl-py==2.2.2
+albucore==0.0.17
+albumentations==1.4.18
+annotated-types==0.7.0
+anyio @ file:///C:/b/abs_847uobe7ea/croot/anyio_1706220224037/work
+appdirs==1.4.4
+astor==0.8.1
+babel==2.17.0
+bce-python-sdk==0.9.29
+beautifulsoup4==4.13.4
+black==21.4b2
+blinker==1.8.2
+certifi @ file:///C:/b/abs_1fw_exq1si/croot/certifi_1725551736618/work/certifi
+chardet==5.2.0
+charset-normalizer==3.4.1
+click==8.1.8
+cloudpickle==3.1.1
+colorama==0.4.6
+contourpy==1.1.1
+cycler==0.12.1
+Cython==3.0.12
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+# Editable install with no version control (detectron2==0.4.1)
+-e e:\code\project2025\rrpn_plusplus-master
+et_xmlfile==2.0.0
+eval_type_backport==0.2.2
+exceptiongroup @ file:///C:/b/abs_c5h1o1_b5b/croot/exceptiongroup_1706031441653/work
+filelock==3.13.1
+fire==0.7.0
+Flask==3.0.3
+flask-babel==4.0.0
+Flask-Cors==5.0.0
+fonttools==4.57.0
+fsspec==2024.6.1
+future==1.0.0
+fvcore==0.1.5.post20221221
+grpcio==1.70.0
+h11 @ file:///C:/b/abs_1czwoyexjf/croot/h11_1706652332846/work
+httpcore @ file:///C:/b/abs_55n7g233bw/croot/httpcore_1706728507241/work
+httpx @ file:///C:/b/abs_43e135shby/croot/httpx_1723474830126/work
+hydra-core==1.4.0.dev1
+idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
+imageio==2.35.1
+importlib_metadata==8.5.0
+importlib_resources==6.4.5
+iopath==0.1.8
+itsdangerous==2.2.0
+Jinja2==3.1.4
+joblib==1.4.2
+kiwisolver==1.4.7
+lap==0.5.12
+lazy_loader==0.4
+lmdb==1.6.2
+lxml==5.4.0
+Markdown==3.8
+MarkupSafe==2.1.5
+matplotlib==3.7.5
+mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
+mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
+mkl-service==2.4.0
+motmetrics==1.4.0
+mpmath==1.3.0
+mypy_extensions==1.1.0
+networkx==3.0
+ninja==1.11.1.4
+numpy==1.24.4
+nvidia-pyindex==1.0.9
+omegaconf==2.4.0.dev3
+opencv-contrib-python==4.11.0.86
+opencv-python==4.11.0.86
+opencv-python-headless==4.11.0.86
+openpyxl==3.1.5
+opt-einsum @ file:///tmp/build/80754af9/opt_einsum_1621500238896/work
+packaging==25.0
+paddleocr==2.10.0
+paddlepaddle-gpu==3.0.0
+paddleslim==2.2.1
+paddlex==2.1.0
+pandas==2.0.3
+pathspec==0.12.1
+pillow==10.2.0
+portalocker==3.1.1
+protobuf==4.25.3
+psutil==7.0.0
+pyclipper==1.3.0.post6
+pycocotools==2.0.7
+pycryptodome==3.22.0
+pydantic==2.10.6
+pydantic_core==2.27.2
+pydot==3.0.4
+pyparsing==3.1.4
+pypinyin==0.54.0
+pytesseract==0.3.13
+python-dateutil==2.9.0.post0
+python-docx==1.1.2
+pytz==2025.2
+PyWavelets==1.4.1
+pywin32==310
+PyYAML==6.0.2
+pyzmq==26.4.0
+rapidfuzz==3.9.7
+rarfile==4.2
+regex==2024.11.6
+requests==2.32.3
+RRPN==0.0.0
+scikit-image==0.21.0
+scikit-learn==0.23.2
+scipy==1.10.1
+shapely==2.0.7
+six==1.17.0
+sniffio @ file:///C:/b/abs_3akdewudo_/croot/sniffio_1705431337396/work
+soupsieve==2.7
+sympy==1.13.3
+tabulate==0.9.0
+tensorboard==2.19.0
+tensorboard-data-server==0.7.2
+tensorrt @ file:///E:/ProgramData/TensorRT-8.5.1.7/python/tensorrt-8.5.1.7-cp38-none-win_amd64.whl#sha256=8d118eaced632f1ea115800a9081b8896ecf22ff11c67701a590aa7ad77a1394
+termcolor==3.0.1
+threadpoolctl==3.5.0
+tifffile==2023.7.10
+toml==0.10.2
+torch==2.4.1+cu118
+torchaudio==2.4.1+cu118
+torchvision==0.19.1+cu118
+tqdm==4.67.1
+typing_extensions==4.12.2
+tzdata==2025.2
+urllib3==2.2.3
+visualdl==2.5.3
+Werkzeug==3.0.6
+xmltodict==0.14.2
+yacs==0.1.8
+zipp==3.20.2
