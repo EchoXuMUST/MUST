@@ -1,0 +1,56 @@
+# =========================
+# DeepResearch + Qwen3-VL(MoE) requirements
+# =========================
+
+# ---- Core runtime (current project code imports) ----
+openai==1.99.5
+httpx==0.27.2
+beautifulsoup4==4.12.3
+requests==2.32.5
+python-dotenv==1.1.1
+PyYAML==6.0.2
+tqdm==4.67.1
+
+# ---- Deep learning stack (for local multimodal inference) ----
+torch==2.7.1
+torchvision==0.22.1
+torchaudio==2.7.1
+triton==3.3.1
+xformers==0.0.31
+
+# ---- Transformers / HF (Qwen3-VL compatibility) ----
+# Qwen3-VL requires transformers >= 4.57.0
+transformers>=4.57.0,<5.0.0
+tokenizers==0.22.0
+huggingface-hub==0.34.4
+safetensors==0.6.2
+sentencepiece==0.2.1
+einops==0.8.1
+accelerate>=0.30.0
+qwen-vl-utils==0.0.14
+
+# ---- vLLM serving (Qwen3-VL) ----
+# Keep <0.12.0 to reduce CLI breaking changes with existing launch script.
+vllm>=0.11.0,<0.12.0
+
+# ---- Optional API/agent ecosystem used in typical DeepResearch deployments ----
+litellm==1.77.1
+dashscope==1.24.4
+qwen-agent==0.0.26
+modelscope==1.30.0
+
+# ---- Optional data / document processing ----
+numpy==2.2.6
+pandas==2.3.2
+opencv-python-headless==4.12.0.88
+pillow==11.3.0
+pdfplumber==0.11.7
+pdfminer.six==20250506
+openpyxl==3.1.5
+xlsxwriter==3.2.8
+lxml==6.0.1
+
+# ---- Utilities ----
+tenacity==9.1.2
+psutil==7.0.0
+ray==2.49.1
